@@ -1,0 +1,239 @@
+body{
+    font-family: sans-serif;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color:  deepskyblue;
+    padding: 10px 20px;
+    font-size: 20px;
+    display:  flex;
+}
+.links{
+    flex: 1;
+}
+
+.header_item{
+    padding: 10px;
+}
+
+.header_item a{
+    color: lightgray;
+    text-decoration: none;
+}
+.header_item a:hover{
+    text-decoration: underline;
+}
+
+#selected{
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.subhead{
+    color: #ababab;
+}
+
+h2 {
+    font-size: 50px;
+    color: #0f7ec2;
+    margin-bottom: 20px;
+}
+
+hr{
+    border: solid 1px darkgrey;
+}
+
+a{
+    text-decoration: none;
+}
+
+.date{
+    color: #ababab;
+
+}
+
+.autor{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.autor:hover{
+    text-decoration: underline;
+}
+
+.kategorie{
+    color: dodgerblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+.kategorie:hover{
+    text-decoration: underline;
+}
+
+.paragraph {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+
+    font-size: 20px;
+}
+
+.continue_reading{
+    text-align: right;
+}
+
+.continue_reading a{
+    color: #0f7ec2;
+    text-decoration: none;
+}
+.continue_reading a:hover{
+    text-decoration: underline;
+}
+
+.article_img{
+    display: flex;
+    justify-content: center;
+}
+
+.article_img img{
+    width: 50%;
+}
+
+.category_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+}
+
+.category_grid a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.bold{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.autors_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.autors_item{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.autors_item:hover {
+    background-color: lightgray;
+}
+
+.autors_item img{
+    flex: 1;
+    max-width: 12vw;
+    margin-right: 8px;
+    object-fit: contain;
+}
+
+.autors_item div{
+    flex: 2;
+}
+h3{
+    color: #0f7ec2;
+}
+
+.button_box{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px 20px;
+    border: #0f7ec2 solid 1px;
+    background-color: #0f7ec2;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: deepskyblue;
+}
+
+th, table, td {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+td a:hover{
+    text-decoration: underline;
+}
+
+.admin_table{
+    margin-top: 30px ;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 10px auto;
+}
+label{
+    Color: #0f7ec2;
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+form .button{
+    align-self: center;
+}
+.error_box{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+.error{
+    font-weight: bold;
+    color: red;
+}
+
+.delete{
+    color: red;
+}
+#passwd{
+    display: unset;
+}
+#passwd a{
+    color: black;
+}
+#passwd a:hover{
+    color: grey;
+}
